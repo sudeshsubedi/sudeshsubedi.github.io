@@ -1,3 +1,1 @@
-window.onload(){
-	console.log('Successfully loaded!')
-}
+console.log('Succesfully loaded!');
