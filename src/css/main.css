@@ -83,3 +83,35 @@ ul > li > a > img:hover {
   border-radius: 10%;
   width: 15vw;
 }
+
+#Project_C {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 55%;
+  border: 4px solid black;
+  width: 400px;
+  height: 160px;
+}
+
+#project {
+  text-align: center;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 22px;
+}
+
+#project_box {
+  border-top: 2px solid black;
+}
+
+#mainProject {
+
+}
+
+ul > li {
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  z-index: 1;
+  padding: 0 4px 0 4px;
+}
