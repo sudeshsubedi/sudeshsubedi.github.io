@@ -1,117 +1,78 @@
-html {
+*{
     margin: 0;
     padding: 0;
 }
 
 body {
     color: rgb(28, 28, 30);
-}
-
-.title{
     font-family: 'Sansita Swashed', cursive;
-    text-align: center;
 }
 
-#greeting_C {
-  position: absolute;
-  z-index: 1;
-  margin: 0;
-  padding: 0;
-  top: 22%;
-  left: 40%;
-  width: 355px;
-  height: 120px;
-}
-
-#greeting {
-  position: absolute;
-  z-index: 1;
-  font-size: 2.5em;
-  left: 0%;
-  /*font-family: Helvetica;*/
-  font-family: 'Ubuntu', sans-serif;
-  /*color: #02203C;*/
-}
-
-#name {
-  position: absolute;
-  z-index: 1;
-  font-size: 1.25em;
-  /*font-family: Helvetica;*/
-  top: 40%;
-  left: 0%;
-}
-
-#mainIcons {
-  position: absolute;
-  bottom: 0%;
-  left: 26%;
-  margin: 0;
-  padding: 0;
-}
-
-ul > li {
-  display: inline-block;
-  list-style: none;
-  position: relative;
-  z-index: 1;
-  padding: 0 4px 0 4px;
-}
-
-ul > li > a > img {
-  width: 1.6vw;
-  cursor: pointer;
-}
-
-#mainIcons > li > a > img {
-  width: 35px;
-}
-
-ul > li > a > img:hover {
-  transform: scale(1.25);
-}
 
 #meContainer {
-  position: absolute;
-  z-index: 1;
-  top: 17%;
-  left: 19%;
+  position: fixed;
+  text-align: center;
+  top: 1%;
+  left: 1%;
+  width: 24%;
+  height: 45%;
+  border: 1px solid black;
 }
 
 #me {
-  /*border: 1px solid #6715a5;*/
-  border-radius: 10%;
-  width: 15vw;
+  object-fit: contain;
+  margin-top: 10%;
+  height: 70%;
+  width: 50%;
+  border-radius: 17%;
 }
 
-#Project_C {
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 55%;
-  border: 4px solid black;
-  width: 400px;
-  height: 160px;
+
+#greetingsContainer {
+  position: fixed;
+  top: 1%;
+  left: 25%;
+  width: 24%;
+  height: 10%;
+  border: 1px solid black; 
 }
 
-#project {
-  text-align: center;
-  font-family: 'Sansita Swashed', cursive;
-  font-size: 22px;
+
+#introContainer {
+  position: fixed;
+  top: 11%;
+  left: 25%;
+  width: 24%;
+  height: 35%;
+  border: 1px solid black;
 }
 
-#project_box {
-  border-top: 2px solid black;
+
+#projectsContainer {
+  position: fixed;
+  top: 46%;
+  left: 1%;
+  width: 48%;
+  height: 44%;
+  border: 1px solid black;
 }
 
-#mainProject {
 
+#aboutMeContainer {
+  position: fixed;
+  top: 1%;
+  left: 49%;
+  width: 32%;
+  height: 89%;
+  border: 1px solid black;
 }
 
-ul > li {
-  display: inline-block;
-  list-style: none;
-  position: relative;
-  z-index: 1;
-  padding: 0 4px 0 4px;
+
+#socialsContainer {
+  position: fixed;
+  top: 1%;
+  left: 81%;
+  width: 18%;
+  height: 89%; 
+  border: 1px solid black;
 }
