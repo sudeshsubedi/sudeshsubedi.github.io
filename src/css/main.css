@@ -10,18 +10,18 @@ body {
 
 
 #meContainer {
-  position: fixed;
+  position: absolute;
   text-align: center;
   top: 1%;
   left: 1%;
   width: 24%;
   height: 45%;
-  border: 1px solid black;
 }
 
 #me {
   object-fit: contain;
-  margin-top: 10%;
+  margin-top: 7%;
+  margin-left: 45%;
   height: 70%;
   width: 50%;
   border-radius: 17%;
@@ -29,50 +29,122 @@ body {
 
 
 #greetingsContainer {
-  position: fixed;
+  position: absolute;
   top: 1%;
   left: 25%;
   width: 24%;
   height: 10%;
-  border: 1px solid black; 
+}
+
+#hello {
+  position: absolute;
+  bottom: 30%;
+}
+
+#name {
+  position: absolute;
+  bottom: 0%;
 }
 
 
 #introContainer {
-  position: fixed;
+  position: absolute;
   top: 11%;
   left: 25%;
   width: 24%;
   height: 35%;
-  border: 1px solid black;
+}
+
+#intro {
+  top: 5%;
+  position: absolute;
 }
 
 
 #projectsContainer {
-  position: fixed;
+  position: absolute;
   top: 46%;
   left: 1%;
   width: 48%;
   height: 44%;
-  border: 1px solid black;
+}
+
+#title_p{
+  font-size: 24px;
+  text-align: center;
 }
 
 
 #aboutMeContainer {
-  position: fixed;
+  position: absolute;
   top: 1%;
   left: 49%;
   width: 32%;
   height: 89%;
-  border: 1px solid black;
+}
+
+#title_ab{
+  font-size: 24px;
+  text-align: center;
+}
+
+#socialsContainer {
+  position: absolute;
+  top: 1%;
+  left: 87%;
+  width: 12%;
+  height: 89%;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+#title_soc{
+  font-size: 24px;
+  text-align: center;
+}
+
+#github {
+  position: relative;
+  height: auto;
+  text-align: center;
+}
+
+#gh_fig > a > img {
+  width: 30%;
+  height: 15%;
+  margin-top: 10px;
+  /*margin-left: 35%;*/
 }
 
 
-#socialsContainer {
-  position: fixed;
-  top: 1%;
-  left: 81%;
-  width: 18%;
-  height: 89%; 
-  border: 1px solid black;
+#discord {
+  position: relative;
+  text-align: center;
+  height: auto;
+}
+
+#discord_fig > a > img {
+  width: 30%;
+  height: auto;
+  margin-top: 10px;
+  /*margin-left: 35%;*/
+}
+
+
+#email {
+  position: relative;
+  text-align: center;
+  height: auto;
+}
+
+
+#email_fig > a > img {
+  width: 30%;
+  height: 15%;
+  margin-top: 10px;
+  /*margin-left: 35%;*/
+}
+
+#email_fig > figcaption {
+  font-size: 12px;
 }
